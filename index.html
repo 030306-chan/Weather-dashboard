@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">WeatherWise</a>
+            <ul class="nav-links">
+                <li><a href="#city1">City 1</a></li>
+                <li><a href="#city2">City 2</a></li>
+                <li><a href="#settings">Settings</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Real-Time Weather Around the Globe</h1>
+            <p>Get up-to-the-minute weather information for your favorite cities.</p>
+        </div>
+    </header>
+
+    <section id="city1" class="weather-section">
+        <div class="container">
+            <h2>Weather in City 1</h2>
+            <div class="weather-data">
+                <p>Temperature: <span id="city1-temp">--</span> °C</p>
+                <p>Condition: <span id="city1-condition">--</span></p>
+                <p>Humidity: <span id="city1-humidity">--</span>%</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="city2" class="weather-section">
+        <div class="container">
+            <h2>Weather in City 2</h2>
+            <div class="weather-data">
+                <p>Temperature: <span id="city2-temp">--</span> °C</p>
+                <p>Condition: <span id="city2-condition">--</span></p>
+                <p>Humidity: <span id="city2-humidity">--</span>%</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="settings" class="settings-section">
+        <div class="container">
+            <h2>Settings</h2>
+            <p>Placeholder for future settings like unit selection or adding more cities.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
